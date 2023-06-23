@@ -1,0 +1,22 @@
+.container{
+  // background: linear-gradient(to right top, #00ffbf, #ff00ff );
+  height: 100%;
+  animation: background 5s ease-in infinite;
+  &:hover{
+    animation-play-state: paused;
+  }
+}
+@keyframes background {
+  0%{
+    background: linear-gradient(to right top, #00ffbf, #ff00ff );
+  }
+  50%{
+    background: linear-gradient(to right top, #ff00ff, #00ffbf );
+  }
+  100%{
+    background: linear-gradient(to right top, #00ffbf, #ff00ff );
+  }
+}
+.slideshow{
+  background-color: red;
+}
